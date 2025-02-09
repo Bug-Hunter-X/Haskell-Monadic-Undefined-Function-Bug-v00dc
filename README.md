@@ -1,0 +1,3 @@
+# Haskell Monadic Undefined Function Bug
+
+This repository demonstrates a subtle bug in Haskell code where an undefined function within a monadic context leads to a runtime error. The code compiles without errors, yet it crashes during execution. This is due to Haskell's lazy evaluation and its handling of undefined functions within monads. The solution showcases how to use pattern matching and explicit error handling to improve code robustness and avoid such runtime issues.
